@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.wraper {
+  width: 90%;
+  margin: auto;
+}
+.wraper .select-pic-wraper {
+  width: 100%;
+  margin: 20px auto;
+  padding: 30px 0;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 5px dashed #ccc;
+  display: block;
+  color: #ccc;
+  text-align: center;
+  cursor: pointer;
+}
+.wraper .select-pic-wraper input[type="file"] {
+  visibility: hidden;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.wraper input {
+  width: 100%;
+  margin: 15px auto;
+}
+.wraper .pic-wraper {
+  display: flex;
+  justify-content: space-between;
+}
+.wraper .pic-wraper > div {
+  width: 49%;
+}
+.wraper .pic-wraper > div > img {
+  width: 100%;
+  height: auto;
+}
