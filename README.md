@@ -38,4 +38,4 @@ document.querySelector('input').addEventListener('change', async e => {
 
 #### online demo
 
-![http://shaw.click/repic/example/](http://shaw.click/repic/example/)
+[http://shaw.click/repic/example/](http://shaw.click/repic/example/)
