@@ -1,4 +1,4 @@
-class RePic {
+class Repic {
   constructor(files = [], {fullback, formData, minSize, filelist, mass, name, maxWidth}) {
     this.index = 0
     this.files = files

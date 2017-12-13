@@ -1,10 +1,10 @@
-## resize pic
+## Repic -- resize pic
 
 #### example
 
 ```
 document.querySelector('input').addEventListener('change', e => {
-  new RePic(e.target.files, {
+  new Repic(e.target.files, {
     name: e.target.name,
     minSize: 1,
     maxWidth: 1000,
@@ -21,7 +21,7 @@ or
 ```
 document.querySelector('input').addEventListener('change', async e => {
   const getFormData = new Promise((resolve, reject) => {
-    new RePic(e.target.files, {
+    new Repic(e.target.files, {
       name: e.target.name,
       minSize: 1,
       maxWidth: 1000,
@@ -35,3 +35,7 @@ document.querySelector('input').addEventListener('change', async e => {
   const data = await getFormData
 }, false)
 ```
+
+#### online demo
+
+![http://shaw.click/repic/example/](http://shaw.click/repic/example/)

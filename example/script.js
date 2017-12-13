@@ -30,7 +30,7 @@ const setImagesList = function(files, wraper) {
 
 document.querySelector('input').addEventListener('change', async e => {
   const getFormData = new Promise((resolve, reject) => {
-    var pic = new RePic(e.target.files, {
+    var pic = new Repic(e.target.files, {
       name: e.target.name,
       minSize: 0.5,
       maxWidth: Math.floor(document.querySelector('.maxwidth-input').value),
